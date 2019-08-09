@@ -10,6 +10,6 @@ mongoose.connect('mongodb://localhost:27017/node-notes-db', {
 */
 
 module.exports = {
-  database: 'mongodb://localhost:27017/notes-node',
+  database: 'mongodb://mongo-server:27017/notes-node',
   secret: 'secret'
 }
