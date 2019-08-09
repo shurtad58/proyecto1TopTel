@@ -9,13 +9,27 @@ const passport = require('passport');
 
 //inicializacion
 
+mongoose.connect(config.database);
+let db = mongoose.connection;
+
+//Check conn
+db.once('open', function(){
+    console.log('Connected to MongoDB');
+});
+
+//Check for DB errors
+db.on('error', function(err){
+    console.log(err);
+});
+
+
 const app = express();
 require('./database');
 require('./config/passport');
 
 
 //configu
-app.set('port', procces.env.PORT || 3000);
+//app.set('port', procces.env.PORT || 3000);
 app.set('views', path.join(__dirname, 'views'));
 app.engine('.hbs', exphbs({
     defaultLayout: 'main',
@@ -61,6 +75,9 @@ app.use(require('./routes/users'));
 app.use(express.static(path.join(__dirname, 'public')));
 
 //servidor
+app.listen(3000);
 app.listen(app.get('port'), ()=>{
     console.log('server on port', app.get('port'));
 });
+
+

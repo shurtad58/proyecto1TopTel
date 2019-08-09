@@ -1,9 +1,15 @@
-const mongoose = require('mongoose');
+/*const mongoose = require('mongoose');
 
 mongoose.set('useFindAndModify', false);
-mongoose.connect('mongodb://27017/node-notes-db', {
+mongoose.connect('mongodb://localhost:27017/node-notes-db', {
   useCreateIndex: true,
   useNewUrlParser: true
 })
   .then(db => console.log('DB is connected'))
   .catch(err => console.error(err));
+*/
+
+module.exports = {
+  database: 'mongodb://localhost:27017/notes-node',
+  secret: 'secret'
+}
