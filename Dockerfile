@@ -1,7 +1,7 @@
 FROM node:10.16.1 
 
 LABEL version="1.0"
-LABEL description="proyecto1"
+LABEL description="Web app Articulos NodeJS"
 LABEL maintainer="Stiven Hurtado - shurtad5@eafit.edu.co"
 
 ARG PORT=3000

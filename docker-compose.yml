@@ -10,9 +10,9 @@ services:
       - "80:80"
       - "443:443"
     depends_on:
-      - proyecto1
-  proyecto1:
-    container_name: proyecto1
+      - nodeapp
+  nodeapp:
+    container_name: nodeapp
     restart: always
     build: .
     ports:
