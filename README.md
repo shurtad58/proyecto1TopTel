@@ -17,3 +17,15 @@ Se hace el primer commit de registro de usuarios.
 
 ### 04-08-2019
 Se tuvo problemas con git ya que al ejecutar el comando " $git push -f origin master" se borro lo que se tenia en el git, pero se vuelven hacer los commit respectivamente y añadiendo el archivo de docker.file, docker-compose.yml y nginx.conf
+
+### 09-08-2019
+Se hace commit de la base de datos utilizando mongodb
+
+### 13-08-2019
+Se crea la imagen de nginx en docker-compose.yml
+
+### 14-08-2019
+La aplicacion trabaja localmente con el registro de usuarios 
+
+
+
