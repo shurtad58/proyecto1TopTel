@@ -43,7 +43,7 @@ Se monta la aplicacion al DCA
 ![image](https://user-images.githubusercontent.com/30469862/63235345-a07e5a80-c1fe-11e9-9762-a0c650f4f545.png)
 
 ### 18-08-2019
-Se monta la aplicacion al DCA y se adquiere el dominio por https://my.freenom.com, donde se accede mediante shurtad52019.tk
+Ejecuta en la nube(AWS) y se adquiere el dominio por https://my.freenom.com, donde se accede mediante shurtad52019.tk
 
 ![image](https://user-images.githubusercontent.com/30469862/63235437-00750100-c1ff-11e9-82c2-d0dd6ffc3268.png)
 
