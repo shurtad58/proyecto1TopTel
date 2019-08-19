@@ -5,6 +5,9 @@
 Realizado por:
 - Stiven Hurtado Loaiza
 
+
+![image](https://user-images.githubusercontent.com/30469862/63234944-36b18100-c1fd-11e9-9627-99f1158fded5.png)
+
 ### Monitoria del 19 de julio
 El monitor explica lo que debemos hacer de proyecto1, nos indica que trabajemos con docker y docker compose, despliega una aplicacion para darnos un ejemplo, ademas nos indica cuales serian las herramientas que podriamos usar (MEAN) para desarrollar el proyecto.
 Este dia se accede al DCA pero en mi caso no tenia la ip ni la contraseña de la vpn por lo cual no se puede probar.
@@ -32,6 +35,12 @@ La aplicacion trabaja localmente con el registro de usuarios
 Se crean las operaciones CRUD, donde el usuario registrado puede hacer dichas operaciones 
 
 ![image](https://user-images.githubusercontent.com/30469862/63234608-9b6bdc00-c1fb-11e9-9d9b-bf80a63e4abd.png)
+
+### 17-08-2019
+Se agrega certificado de nginx en la carpeta ssl
+
+![image](https://user-images.githubusercontent.com/30469862/63234881-e6d2ba00-c1fc-11e9-8a49-2162116c21c4.png)
+
 
 
 
