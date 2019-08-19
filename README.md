@@ -38,8 +38,18 @@ Se crean las operaciones CRUD, donde el usuario registrado puede hacer dichas op
 
 ### 17-08-2019
 Se agrega certificado de nginx en la carpeta ssl
+Se monta la aplicacion al DCA
 
-![image](https://user-images.githubusercontent.com/30469862/63234881-e6d2ba00-c1fc-11e9-8a49-2162116c21c4.png)
+![image](https://user-images.githubusercontent.com/30469862/63235345-a07e5a80-c1fe-11e9-9762-a0c650f4f545.png)
+
+### 18-08-2019
+Se monta la aplicacion al DCA y se adquiere el dominio por https://my.freenom.com, donde se accede mediante shurtad52019.tk
+
+![image](https://user-images.githubusercontent.com/30469862/63235437-00750100-c1ff-11e9-82c2-d0dd6ffc3268.png)
+
+
+
+
 
 
 
