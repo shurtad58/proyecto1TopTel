@@ -27,5 +27,7 @@ Se crea la imagen de nginx en docker-compose.yml
 ### 14-08-2019
 La aplicacion trabaja localmente con el registro de usuarios 
 
+![image](https://user-images.githubusercontent.com/30469862/63234040-0f58b500-c1f9-11e9-90d1-d880207d63dd.png)
+
 
 
