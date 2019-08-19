@@ -29,5 +29,9 @@ La aplicacion trabaja localmente con el registro de usuarios
 
 ![image](https://user-images.githubusercontent.com/30469862/63234040-0f58b500-c1f9-11e9-90d1-d880207d63dd.png)
 
+Se crean las operaciones CRUD, donde el usuario registrado puede hacer dichas operaciones 
+
+![image](https://user-images.githubusercontent.com/30469862/63234608-9b6bdc00-c1fb-11e9-9d9b-bf80a63e4abd.png)
+
 
 
