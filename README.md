@@ -47,6 +47,10 @@ Ejecuta en la nube(Amazon), se requiere tener ip fija, la cual se hace el respec
 
 ![image](https://user-images.githubusercontent.com/30469862/63235437-00750100-c1ff-11e9-82c2-d0dd6ffc3268.png)
 
+### 15-08-2019
+Se agrega al marco de referencia los QA, implementados y especificados al proyecto (Disponibilidad, seguridad y rendimiento)
+en el cual se trabaja pruebas de carga y stress en rendimiento con JMeter, se desplega la app en otro servidor y se instala nginx en otro servidor para el balanceo de carga, en seguridad se trabaja con el protocolo 443 y se trabaja con una dependencia (bcryptjs) en el cual encripta la contraseña
+
 
 
 
