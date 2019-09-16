@@ -43,7 +43,7 @@ Se monta la aplicacion al DCA, se accede con la ip : 192.168.10.139 y dominio: s
 ![image](https://user-images.githubusercontent.com/30469862/63235345-a07e5a80-c1fe-11e9-9762-a0c650f4f545.png)
 
 ### 18-08-2019
-Ejecuta en la nube(AWS), se requiere tener ip fija, la cual se hace el respectivo procedimiento la cual es : 18.220.208.133 y se adquiere el dominio por https://my.freenom.com, donde se accede mediante shurtad52019.tk
+Ejecuta en la nube(Amazon), se requiere tener ip fija, la cual se hace el respectivo procedimiento la cual es : 18.220.208.133 y se adquiere el dominio por https://my.freenom.com, donde se accede mediante shurtad52019.tk
 
 ![image](https://user-images.githubusercontent.com/30469862/63235437-00750100-c1ff-11e9-82c2-d0dd6ffc3268.png)
 
