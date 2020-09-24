@@ -1,7 +1,6 @@
 const mongoose = require('mongoose');
+const encryptor = require('../helpers/encryptor');
 const { Schema } = mongoose;
-
-const bcrypt = require('bcryptjs');
 
 const UserSchema = new Schema({
   name: { type: String, required: true },
@@ -10,11 +9,7 @@ const UserSchema = new Schema({
   date: { type: Date, default: Date.now }
 });
 
-UserSchema.methods.encryptPassword = async (password) => {
-  const salt = await bcrypt.genSalt(11);
-  const hash = await bcrypt.hash(password, salt);
-  return hash;
-};
+UserSchema.methods.encryptPassword = encryptor;
 
 UserSchema.methods.matchPassword = async function (password) {
   return await bcrypt.compare(password, this.password);
