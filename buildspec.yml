@@ -37,11 +37,12 @@ phases:
     commands:
       - npm test
       # - command
-  # post_build:
-  #   commands:
+  post_build:
+    commands:
       # - mvn package
       # - npm start
       # - mv target/protoapp-1.0-SNAPSHOT.war ROOT.war
+      - zip -r Proyecto.zip ./
       # - command
 #reports:
   #report-name-or-arn:
@@ -51,10 +52,10 @@ phases:
     #base-directory: location
     #discard-paths: yes
     #file-format: JunitXml | CucumberJson
-# artifacts:
-#   files:
-#     - ROOT.war
-    # - location
+artifacts:
+  files:
+    - Proyecto.zip
+    - location
   #name: $(date +%Y-%m-%d)
   #discard-paths: yes
   #base-directory: location
