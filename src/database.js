@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 mongoose.set('useFindAndModify', false);
-mongoose.connect('mongodb://mongo-server:27017/node-notes-db', {
+mongoose.connect('mongodb://mongo-server:4848/node-notes-db', {
   useCreateIndex: true,
   useNewUrlParser: true
 })
