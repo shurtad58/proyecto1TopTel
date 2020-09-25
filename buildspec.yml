@@ -37,10 +37,10 @@ phases:
     commands:
       - npm test
       # - command
-  post_build:
-    commands:
+  # post_build:
+  #   commands:
       # - mvn package
-      - npm start
+      # - npm start
       # - mv target/protoapp-1.0-SNAPSHOT.war ROOT.war
       # - command
 #reports:
