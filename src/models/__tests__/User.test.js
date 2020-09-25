@@ -1,3 +1,4 @@
+// eslint-ignore
 const encryptPass = require('../../helpers/encryptor');
 
 jest.mock('bcryptjs', () => ({

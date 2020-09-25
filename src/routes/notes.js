@@ -46,11 +46,11 @@ router.get('/notes', isAuthenticated, async (req, res) => {
 // Editar Notas
 router.get('/notes/edit/:id', isAuthenticated, async (req, res) => {
   const note = await Note.findById(req.params.id);
-  if (note.user != req.user.id) {
+  if (note.user !== req.user.id) {
     req.flash('error_msg', 'Not Authorized');
     return res.redirect('/notes');
   }
-  res.render('notes/edit-note', { note });
+  return res.render('notes/edit-note', { note });
 });
 
 router.put('/notes/edit-note/:id', isAuthenticated, async (req, res) => {

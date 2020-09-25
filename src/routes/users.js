@@ -11,9 +11,9 @@ router.get('/users/signup', (req, res) => {
 router.post('/users/signup', async (req, res) => {
   const errors = [];
   const {
-    name, email, password, confirm_password,
+    name, email, password, confirm_password: confirmPassword,
   } = req.body;
-  if (password != confirm_password) {
+  if (password !== confirmPassword) {
     errors.push({ text: 'Passwords do not match.' });
   }
   if (password.length < 4) {
@@ -21,7 +21,7 @@ router.post('/users/signup', async (req, res) => {
   }
   if (errors.length > 0) {
     res.render('users/signup', {
-      errors, name, email, password, confirm_password,
+      errors, name, email, password, confirm_password: confirmPassword,
     });
   } else {
     // mirar los correos que coinciden

@@ -6,7 +6,7 @@ mongoose.connect('mongodb+srv://proyecto1tel:1115559994@cluster0.fabtq.mongodb.n
   useCreateIndex: true,
   useNewUrlParser: true,
 })
-  .then((db) => console.log('DB is connected'))
+  .then(() => console.log('DB is connected'))
   .catch((err) => console.error(err));
 
 // module.exports = {
