@@ -2,7 +2,7 @@ const encryptPass = require('../../helpers/encryptor');
 
 jest.mock('bcryptjs', () => ({
   genSalt: (salt) => Promise.resolve(salt),
-  hash: (pass, salt) => Promise.resolve(`${pass}-${salt}`)
+  hash: (pass, salt) => Promise.resolve(`${pass}-${salt}`),
 }));
 
 describe('User model tests', () => {

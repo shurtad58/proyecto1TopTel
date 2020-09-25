@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node src/index.js",
-    "test": "jest"
+    "test": "jest --coverage",
+    "dev": "nodemon src/index.js",
+    "code-analysis": "npx eslint ."
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,11 @@
   "bugs": {
     "url": "https://github.com/shurtad58/proyecto1TopTel/issues"
   },
+  "jestSonar": {
+    "reportPath": "coverage",
+    "reportFile": "test-reporter.xml",
+    "indent": 4
+  },
   "homepage": "https://github.com/shurtad58/proyecto1TopTel#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
@@ -25,9 +32,17 @@
     "express-handlebars": "^3.1.0",
     "express-session": "^1.16.2",
     "jest": "^26.4.2",
+    "jest-sonar-reporter": "^2.0.0",
     "method-override": "^3.0.0",
     "mongoose": "^5.6.8",
     "passport": "^0.4.0",
-    "passport-local": "^1.0.0"
+    "passport-local": "^1.0.0",
+    "supertest": "^4.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.9.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "nodemon": "^2.0.4"
   }
 }
