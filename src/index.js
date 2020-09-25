@@ -9,7 +9,7 @@ const procces = require ('process');
 //const mongoose = require('mongoose');
 //const config = require('./config/config');
 
-//inicializacion
+///inicializacion
 
 //mongoose.connect(config.db);
 //var db = mongoose.connection;
