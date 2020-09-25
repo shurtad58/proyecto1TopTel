@@ -42,7 +42,7 @@ phases:
       # - mvn package
       # - npm start
       # - mv target/protoapp-1.0-SNAPSHOT.war ROOT.war
-      - zip -r Proyecto.zip ./
+      - zip -r Proyecto.zip ./src
       # - command
 #reports:
   #report-name-or-arn:
